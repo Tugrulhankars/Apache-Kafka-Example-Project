@@ -1,0 +1,27 @@
+﻿@model User
+
+<form asp-controller="Home" asp-action="Index" method="post">
+    <div class="mb-3">
+        <label for="FirstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="FirstName" name="FirstName" asp-for="FirstName" aria-describedby="firstHelp">
+    </div>
+    <div class="mb-3">
+        <label for="LastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="LastName" name="LastName" asp-for="LastName" aria-describedby="lastHelp">
+    </div>
+    <div class="mb-3">
+        <label for="EmailAddress" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="EmailAddress" name="EmailAddress" asp-for="EmailAddress" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="Password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="Password" name="Password" asp-for="Password">
+    </div>
+    <div class="mb-3">
+        <label for="PhoneNumber" class="form-label">PhoneNumber</label>
+        <input type="password" class="form-control" id="PhoneNumber" name="PhoneNumber" asp-for="PhoneNumber">
+
+    </div>
+
+    <button type="submit"  class="btn btn-primary">Üye Ol</button>
+</form>

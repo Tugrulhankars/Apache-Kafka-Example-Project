@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5ArZc78aJkZ54WVJshFYDY9HfQLk/C1Mcwi3JlMuay/0haFDAH1xjzU+9GYJ1Uue6TgOnFqmkc+XPUdM/tIVpA==",
+  "success": true,
+  "projectFilePath": "C:\\C project\\ApacheKafkaMedium\\UserService\\UserServiceMVC\\UserServiceMVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karsl\\.nuget\\packages\\confluent.kafka\\2.5.3\\confluent.kafka.2.5.3.nupkg.sha512",
+    "C:\\Users\\karsl\\.nuget\\packages\\librdkafka.redist\\2.5.3\\librdkafka.redist.2.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
